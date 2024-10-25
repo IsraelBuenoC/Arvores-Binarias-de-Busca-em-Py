@@ -23,3 +23,16 @@ def contaElementos(self,no):
         return 0
     else:
         return 1 + self.contaElementos(no.getfe()) + self.contaElementos(no.getfd())
+#Retornar a soma de elementos de uma árvore
+
+
+
+#Retornar o menor valor em uma árvore
+
+
+
+#Retornar o maior valor em uma árvore
+
+
+
+#Mostrar os elementos da árvore Nível a Nível
