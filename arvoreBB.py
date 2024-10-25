@@ -31,7 +31,7 @@ class ArvoreBB:
       self.insereNo(atual, atual.getFd(), no)  
 
 
-# Reservado ara a remocao de nos
+# Remocao de nos
    
     # Método principal para remover um nó
     def remove(self, chave):
