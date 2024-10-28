@@ -17,12 +17,14 @@ def chaveExiste(self,no,x):
             return self.chaveExiste(no.getfe(),x)
         else:
             return self.chaveExiste(no.getfd(),x)
+        
 #Retornar a quantidade de elementos na árvore
 def contaElementos(self,no):
     if no==None:
         return 0
     else:
         return 1 + self.contaElementos(no.getfe()) + self.contaElementos(no.getfd())
+    
 #Retornar a soma de elementos de uma árvore
 
 
